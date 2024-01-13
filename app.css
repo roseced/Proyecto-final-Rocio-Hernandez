@@ -2,9 +2,48 @@
 #titulo{
     color: #035bc0;
 }
+nav ul{
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+}
+nav li{
+display: inline;
+margin-right: 20px;
+}
 
+div{
+    padding: 5em;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+ h1{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+ }
+h2{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
 /*Media Query*/
 
 /** Reescribir colores */
 
 /** Productos */
+.contenedor{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.card .text{
+    display: flex;
+    color: #035bc0;
+    font-size: 1rem;
+    justify-content:center;
+}
